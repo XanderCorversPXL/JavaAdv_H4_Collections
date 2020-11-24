@@ -20,8 +20,5 @@ public class ArrayListDemo2 {
 		System.out.println("Eigen kweek: " + contentList.contains(new TVShow("Eigen kweek", Rating.TEENS, 0)));
 		System.out.println("Iron fist: " + contentList.contains(new Movie("Iron fist", Rating.MATURE)));
 		System.out.println("Rambo: " + contentList.contains(new Movie("Rambo", Rating.TEENS)));
-
 	}
-
-
 }

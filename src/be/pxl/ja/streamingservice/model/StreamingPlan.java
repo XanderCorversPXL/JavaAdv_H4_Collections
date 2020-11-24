@@ -14,4 +14,8 @@ public enum StreamingPlan {
 		this.numberOfScreens = numberOfScreens;
 		this.price = price;
 	}
+
+	public int getNumberOfScreens() {
+		return numberOfScreens;
+	}
 }
